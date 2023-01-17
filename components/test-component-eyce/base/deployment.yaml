@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-eyce
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:5c3b9375a33742e29c379f31be1fd4a0
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:5a99c61a62636c8a0fe6cd2e49417df7576f637caa3c7362f73ef8d40fe506e8
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
